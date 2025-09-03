@@ -33,43 +33,45 @@ LegalEase-Pakistan/
 ```bash
 git clone https://github.com/yourusername/legalease-pakistan.git
 cd legalease-pakistan
-pip install -r requirements.txt 
+pip install -r requirements.txt
+```
 
-### 2️⃣ Add API Key
+## 2️⃣ Add API Key
 
 Create a .env file and add your Gemini API key:
-
+```bash
 Rag_API_Key=your_api_key_here
-
-### 3️⃣ Run the App
+```
+## 3️⃣ Run the App
+```bash
 streamlit run app.py
-
-### 4️⃣ Access Publicly (Optional)
+```
+## 4️⃣ Access Publicly (Optional)
 
 If running in Colab or on a local server, use LocalTunnel:
-
+```bash
 npm install -g localtunnel
 npx localtunnel --port 8501
-
+```
 
 This will generate a public shareable URL.
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
-LLM: Google Gemini (google-generativeai)
+- LLM: Google Gemini (google-generativeai)
 
-Retriever: DuckDuckGo Search (duckduckgo-search)
+- Retriever: DuckDuckGo Search (duckduckgo-search)
 
-Framework: Streamlit (Frontend UI)
+- Framework: Streamlit (Frontend UI)
 
-Deployment: LocalTunnel (for Colab / local sharing)
+- Deployment: LocalTunnel (for Colab / local sharing)
 
-💡 Example Usage
+## 💡 Example Usage
 
 User:
 What is the process for khula in Pakistan?
 
-Chatbot:
+## Chatbot:
 📜 Legal Summary
 
 Explains Khula under Family Law Ordinance.
